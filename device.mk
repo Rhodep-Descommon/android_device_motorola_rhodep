@@ -27,6 +27,17 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     $(LOCAL_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml
 
+PRODUCT_PACKAGES += \
+      android.hardware.nfc@1.2-service.samsung \
+      nfc_nci_samsung \  
+      android.hardware.nfc@1.2.vendor \
+      android.hardware.secure_element@1.2.vendor \
+      com.android.nfc_extras \
+      libchrome.vendor \
+      NfcNci \
+      SecureElement \
+      Tag
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1.vendor \
