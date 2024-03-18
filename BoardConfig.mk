@@ -18,24 +18,9 @@ TARGET_SCREEN_DENSITY := 400
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=rhodep
 #TARGET_KERNEL_CONFIG += vendor/lineage_rhodep.config
-
-BOARD_KERNEL_BINARIES := kernel
-BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)-kernel/dtbo.img
-TARGET_FORCE_PREBUILT_KERNEL := true
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)-kernel/kernel
-TARGET_KERNEL_CONFIG := holi_QGKI
-TARGET_PREBUILT_DTB := $(DEVICE_PATH)-kernel/dtb.img
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)-kernel/dtb.img:$(TARGET_COPY_OUT)/dtb.img \
-    $(DEVICE_PATH)-kernel/kernel:kernel \
-    $(call find-copy-subdir-files,*,$(DEVICE_PATH)-kernel/ramdisk-modules/,$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/modules) \
-    $(call find-copy-subdir-files,*,$(DEVICE_PATH)-kernel/vendor-modules/,$(TARGET_COPY_OUT_VENDOR)/lib/modules)
-
-# Kernel Modules
-#BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
-#BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE := $(DEVICE_PATH)/modules.blocklist
-#BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
-#BOOT_KERNEL_MODULES := $(BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD)
+TARGET_KERNEL_SOURCE := kernel/motorola/sm6375
+TARGET_KERNEL_CONFIG := vendor/rhodep_defconfig
+TARGET_KERNEL_LLVM_BINUTILS := true
 
 # Partitions
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 116681322496
