@@ -21,7 +21,7 @@ persist.vendor.radio.report_codec=1
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
-
+ro.telephony.iwlan_operation_mode=AP-assisted
 
 # Bluetooth
 bluetooth.device.default_name=moto g82 5G
