@@ -1,5 +1,26 @@
 # All unpinned blobs below are extracted from rhodep_g-user 13 T1SUS33.1-124-6-3 1f802-e899d release-keys.
 
+#blob
+vendor/etc/blob
+vendor/etc/blob.1
+vendor/etc/blob.2
+vendor/etc/blob.3
+vendor/etc/blob.4
+vendor/etc/blob.5
+vendor/etc/blob.6
+vendor/etc/blob.7
+vendor/etc/blob.8
+vendor/etc/blob.9
+vendor/etc/blob.10
+vendor/etc/blob.11
+
+
+
+#other
+vendor/etc/init/init.ets.rc
+vendor/lib64/hw/libfactorylib.so
+vendor/lib64/libRbsFlow.so
+vendor/lib64/libets_teeclient_v2.so
 # ACDB Data
 vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/General_cal.acdb

@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
       android.hardware.nfc@1.2-service.samsung \
-      nfc_nci_samsung \  
+      nfc_nci_samsung \
       android.hardware.nfc@1.2.vendor \
       android.hardware.secure_element@1.2.vendor \
       com.android.nfc_extras \
@@ -40,8 +40,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1.vendor \
-    com.motorola.hardware.biometric.fingerprint@1.0.vendor
+    android.hardware.biometrics.fingerprint@2.1.vendor
+    #com.motorola.hardware.biometric.fingerprint@1.0.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/uinput-egis.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-egis.idc \

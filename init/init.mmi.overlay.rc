@@ -39,6 +39,7 @@ on post-fs-data
   chown vendor_pwric vendor_pwric /sys/class/power_supply/cp-standalone/force_chg_auto_enable
 
 on fs
+#    insmod /vendor/lib/modules/${ro.vendor.mot.gki.path}/cw2217b_fg_mmi.ko
     insmod /vendor/lib/modules/${ro.vendor.mot.gki.path}/goodix_brl_mmi.ko
     insmod /vendor/lib/modules/${ro.vendor.mot.gki.path}/mmi_charger.ko
     insmod /vendor/lib/modules/${ro.vendor.mot.gki.path}/bq2597x_mmi_iio.ko

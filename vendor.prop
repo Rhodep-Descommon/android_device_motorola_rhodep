@@ -14,6 +14,15 @@ ro.vendor.audio.crystal_talk_record.supported=true
 ro.vendor.audio.crystal_talk.supported=true
 vendor.audio.feature.battery_listener.enable=false
 
+
+#IMS
+persist.vendor.radio.vdp_on_ims_cap=1
+persist.vendor.radio.report_codec=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
+
 # Bluetooth
 bluetooth.device.default_name=moto g82 5G
 
@@ -23,8 +32,8 @@ persist.vendor.camera.physical.num=4
 # Graphics
 debug.sf.latch_unsignaled=1
 debug.sf.predict_hwc_composition_strategy=0
-ro.surface_flinger.set_idle_timer_ms=250
-ro.surface_flinger.set_touch_timer_ms=1000
+#ro.surface_flinger.set_idle_timer_ms=250
+#ro.surface_flinger.set_touch_timer_ms=1000
 ro.surface_flinger.use_smart_90_for_video=true
 vendor.display.disable_dynamic_sf_idle=1
 vendor.display.idle_time=0

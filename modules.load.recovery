@@ -7,7 +7,6 @@ moto_f_usbnet.ko
 touchscreen_mmi.ko
 goodix_brl_mmi.ko
 mmi_sys_temp.ko
-cw2217b_fg_mmi.ko
 sm5602_fg_mmi.ko
 tcpc_class.ko
 tcpc_rt1711h.ko
