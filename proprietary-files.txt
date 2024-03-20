@@ -1,3 +1,11 @@
+#other
+vendor/lib64/libsecureui.so
+#vendor/lib/libsecureui.so
+vendor/lib64/libcdfw_remote_api.so
+vendor/lib64/libpowercore.so
+vendor/lib64/libsecureui_svcsock.so
+vendor/lib64/libStDrvInt.so
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 # Audio ACDB
 vendor/etc/acdbdata/nn_ns_models/candidate__2.7.1.31__3.0.0__eai_1.10_enpu1.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd
@@ -34,7 +42,7 @@ vendor/firmware/aw882xx_pid_2113_acf.bin
 vendor/firmware/aw_skt.bin
 
 # Audio libraries
-vendor/lib/libacdbloader.so
+#vendor/lib/libacdbloader.so
 vendor/lib64/libacdbloader.so
 
 # Camera
