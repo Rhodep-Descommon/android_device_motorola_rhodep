@@ -14,8 +14,6 @@ TARGET_BOOTLOADER_BOARD_NAME := rhodep
 
 # Display
 TARGET_SCREEN_DENSITY := 400
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
-
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=rhodep
