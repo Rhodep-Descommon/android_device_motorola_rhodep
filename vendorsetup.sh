@@ -17,5 +17,7 @@ git clone https://github.com/Rhodep-Descommon/proprietary_vendor_motorola_sm6375
 
 # Clone hardware
 git clone https://github.com/LineageOS/android_hardware_motorola hardware/motorola
-
 git clone https://github.com/LineageOS/android_system_qcom system/qcom
+
+
+git clone https://github.com/Roynas-Android-Playground/hardware_samsung-extra_interfaces -b lineage-21 hardware/samsung-ext/interfaces

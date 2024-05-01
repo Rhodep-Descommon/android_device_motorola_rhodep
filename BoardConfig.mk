@@ -73,6 +73,9 @@ BOARD_MOT_DYNAMIC_PARTITIONS_PARTITION_LIST := \
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+#Selinux
+include hardware/samsung-ext/interfaces/sepolicy/SEPolicy.mk
+
 # Security
 VENDOR_SECURITY_PATCH := 2023-10-01
 

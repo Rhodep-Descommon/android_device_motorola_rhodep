@@ -55,6 +55,9 @@ PRODUCT_PACKAGES += \
     init.oem.fingerprint.overlay.sh \
     init.oem.fingerprint2.sh
 
+# Include debug tools
+$(call inherit-product, hardware/samsung-ext/interfaces/debug-tools/debug.mk)
+
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
