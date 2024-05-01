@@ -14,7 +14,17 @@ $(call inherit-product, device/motorola/rhodep/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Device identifier. This must come after all inclusions.
+MATRIXX_MAINTAINER := IczYn
+MATRIXX_CHIPSET := SM6375
+MATRIXX_BATTERY := 5000mah
+MATRIXX_DISPLAY := 1080x2400
+MATRIXX_BUILD_TYPE := Official
+WITH_GMS := true
+TARGET_EXCLUDES_AUDIOFX := true
+TARGET_ENABLE_BLUR := true
+
+
+#Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_rhodep
 PRODUCT_DEVICE := rhodep
 PRODUCT_MANUFACTURER := motorola
