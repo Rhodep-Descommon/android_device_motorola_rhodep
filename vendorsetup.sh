@@ -5,7 +5,7 @@ echo -e "${color}Applying patches${end}"
 sleep 1
 
 # Clone kernel
-git clone https://github.com/Rhodep-Descommon/kernel_motorola_msm-5.4 kernel/motorola/sm6375
+git clone https://github.com/Rhodep-Descommon/kernel_motorola_msm-5.4 kernel/motorola/msm-5.4
 
 # Clone vendor
 git clone https://github.com/Rhodep-Descommon/android_vendor_proprietary_rhodep -b 14 vendor/motorola/rhodep
