@@ -12,8 +12,8 @@ git clone https://github.com/Rhodep-Descommon/android_vendor_proprietary_rhodep 
 
 # Clone common trees
 
-git clone https://github.com/Rhodep-Descommon/device_motorola_sm6375-common device/motorola/sm6375-common
-git clone https://github.com/Rhodep-Descommon/vendor_motorola_sm6375-common vendor/motorola/sm6375-common
+git clone https://github.com/Rhodep-Descommon/android_device_motorola_sm6375-common device/motorola/sm6375-common
+git clone https://github.com/Rhodep-Descommon/proprietary_vendor_motorola_sm6375-common vendor/motorola/sm6375-common
 
 # Clone hardware
 git clone https://github.com/LineageOS/android_hardware_motorola hardware/motorola
